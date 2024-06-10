@@ -32,6 +32,7 @@ When press SELECT button and then power on, it goes to Linux OS. If user doesn't
 
 ## How to prepare the build environment (Docker)
 ```
+$ cd docker
 $ sudo docker build -t rpatch .
 ```
 
