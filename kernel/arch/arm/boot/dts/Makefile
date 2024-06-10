@@ -1,5 +1,7 @@
 ifeq ($(CONFIG_OF),y)
 
+dtf-$(CONFIG_ARCH_SSTAR)  += \
+    miyoo_mini.dtb
 dtb-$(CONFIG_ARCH_ALPINE) += \
 	alpine-db.dtb
 dtb-$(CONFIG_MACH_ARTPEC6) += \
