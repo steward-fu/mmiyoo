@@ -1,0 +1,4 @@
+arch/arm/boot/Image.mz
+arch/arm/boot/Image.xz
+arch/arm/boot/uImage.mz
+arch/arm/boot/uImage.xz
