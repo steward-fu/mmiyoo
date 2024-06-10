@@ -26,7 +26,40 @@ Docker $ ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- LOADADDR=0x20008000 make al
 
 &nbsp;
 
+## How to build mininit
+```
+$ cd mininit
+$ make
+```
+
+&nbsp;
+
 ## How to flash kernel to MicroSD
 ```
 $  sudo dd if=arch/arm/boot/uImage.xz of=/dev/sdX bs=1K seek=8
+```
+
+&nbsp;
+
+## How to prepare MicroSD
+```
+1. Reserve 8MB in head
+2. Create Partition 1 with FAT32 format
+3. Create 'root' and 'dev' folders in root of Partition 1
+4. Copy 'mininit' to root of Partition 1
+5. Copy 'rootfs' to root of Partition 1
+```
+
+&nbsp;
+
+## How to boot into Linux OS
+```
+Press SELECT button and then power on
+```
+
+&nbsp;
+
+## How to boot into Stock OS
+```
+Power on
 ```
