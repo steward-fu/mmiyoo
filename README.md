@@ -5,7 +5,7 @@ TBD
 
 # Installation
 1. Patch U-Boot  
-  You can patch U-Boot on Stock OS by [rel_u-boot_patch_20230719.zip](https://github.com/steward-fu/website/releases/download/miyoo-mini-plus/rel_u-boot_patch_20230719.zip)
+  You can patch U-Boot by [rel_u-boot_patch_20230719.zip](https://github.com/steward-fu/website/releases/download/miyoo-mini-plus/rel_u-boot_patch_20230719.zip) on Stock OS
 2. Make bootable MicroSD for Linux OS
 ```
 a). Reserve 8MB in head for kernel image
