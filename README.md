@@ -22,7 +22,7 @@ $  sudo dd if=arch/arm/boot/uImage.xz of=/dev/sdX bs=1K seek=8
 &nbsp;
 
 # Linux and Stock OS
-When press SELECT button and then power on, it goes to Linux OS. If user doesn't press the SELECT button, it boots into Stock OS by default.
+It boots into Linux OS if user presses SELECT button when power on. By default, it goes into Stock OS if without SELECT pressed.
 
 &nbsp;
 
