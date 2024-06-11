@@ -64,3 +64,7 @@ $ cd mininit
 $ make
 ```
 
+&nbsp;
+
+# Limitations
+1. Cannot power off
