@@ -12,7 +12,7 @@ a). Reserve 8MB in head for kernel image
 b). Create Partition 1 with FAT32 format
 c). Create 'root' and 'dev' folders in root of Partition 1
 d). Copy 'mininit' to root of Partition 1
-e). Copy 'rootfs' to root of Partition 1
+e). Copy 'rootfs.squashfs' to root of Partition 1
 ```
 3. Flash kernel to MicroSD
 ```
